@@ -1,0 +1,132 @@
+        .title {
+            font-family: 'Farro', sans-serif;
+            font-size: 3em;
+            text-align: center;
+        }
+        
+        header {
+            font-family: 'Farro', sans-serif;
+            font-size: 1em;
+            background-color: rgb(232, 244, 248);
+            margin: auto;
+            padding: 1%;
+        }
+        
+        body {
+            font-family: 'Farro', sans-serif;
+            background-color: rgb(193, 225, 236);
+            margin: 2%;
+            padding: 0%;
+            font-size: 1em;
+            text-align: left;
+        }
+        
+        .center {
+            text-align: center;
+        }
+        
+        .side {
+            width: 20%;
+            padding-left: 1em;
+            margin: 0em;
+            float: right;
+            font-style: italic;
+            font-size: 1.25em;
+            box-shadow: inset 5px 0 5px -5px black
+        }
+        
+        .logo {
+            float: center;
+            top: 50%;
+            left: 50%;
+            height: 25%;
+            width: 25%;
+            display: block;
+        }
+        
+        form {
+            margin-bottom: 22px;
+        }
+        
+        fieldset {
+            border-radius: 2px;
+            background-color: rgb(211, 211, 211);
+            margin: 4%;
+            padding: 1%;
+            width: 30%;
+            float: right;
+            position: relative;
+        }
+        
+        legend {
+            font-weight: bold;
+            position: absolute;
+            font-size: 2em;
+        }
+        
+        label,
+        input {
+            font-family: 'Farro', sans-serif;
+            width: 45%;
+            padding: 10px;
+            font-size: 1em;
+        }
+        
+        input[type=text],
+        select,
+        textarea {
+            width: 75%;
+            margin: 2%;
+            padding: 6%;
+            border: 5em;
+            border-color: white;
+            border-radius: 3px;
+            resize: vertical;
+            font-family: 'Farro', sans-serif;
+        }
+        
+        input[type=submit]:hover {
+            background-color: rgb(255, 0, 0);
+        }
+        
+        iframe {
+            max-width: 50%;
+            height: 25em;
+            width: 90%;
+            display: block;
+            margin: auto;
+            padding: 1em;
+            border-width: 0px;
+        }
+        
+        .darkgray {
+            color: rgb(56, 56, 56);
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: block;
+            font-family: 'Farro', sans-serif;
+            font-size: .9em;
+        }
+        
+        li {
+            float: right;
+            margin: 0%;
+            display: block;
+            text-decoration: none;
+        }
+        
+        li a {
+            display: block;
+            text-decoration: none;
+            text-align: center;
+            margin: 1%;
+        }
+        
+        li a:hover {
+            color: rgb(0, 0, 0);
+        }
